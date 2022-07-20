@@ -40,7 +40,7 @@ Installing ZRAM
         
    Paste this inside the file and currently I will suggest the size to be 8Gib but you can increase if you want.
         
-    KERNEL=="zram0", ATTR{disksize}="8192M",TAG+="systemd"
+    KERNEL=="zram0", ATTR{disksize}="4096M",TAG+="systemd"
         
 
 After this the ZRAM is created but its better if you disable traditional swap
